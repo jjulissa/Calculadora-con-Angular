@@ -3,3 +3,21 @@
 @tailwind utilities; 
 
 
+.numero { 
+    display: flex; 
+    flex-direction:column ; 
+    gap: 20px;
+} 
+
+.btn { 
+    display: flex; 
+    gap: 20px;
+} 
+
+.bod {
+     display: flex;  
+    flex-direction: column;
+     justify-content: center; 
+     align-items: center; 
+     gap: 30px;
+}

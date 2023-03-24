@@ -1,4 +1,4 @@
-<div> 
+<div class="bod"> 
 
   <header> 
     <h1>{{title}}</h1>
@@ -8,10 +8,10 @@
     <form action=""> 
       <section class="numero"> 
         <label for="numeroUno">Entra un Numero</label> 
-        <input [ngModel] = 'numeroUno' type="number" required name="numeroUno" id="numeroUno" placeholder="Escribe un Numero"> 
+        <input [(ngModel)] = 'numeroUno' type="number" required name="numeroUno" id="numeroUno" placeholder="Escribe un Numero"> 
 
         <label for="numeroDos">Entra otro Numero</label> 
-        <input  ([ngModel]) = "numeroDos" type="number" required name="numeroDos" id="numeroDos" placeholder="Escribe otro Numero">  
+        <input [(ngModel)] = "numeroDos" type="number" required name="numeroDos" id="numeroDos" placeholder="Escribe otro Numero">  
       </section> 
 
       <section class="btn"> 
